@@ -6,7 +6,7 @@ Anggota Kelompok:
 * Deani Puteri Virdiana (140810200059)
 ---
 ## Latar Belakang
-Di masa pandemi seperti saat ini tentunya masyarakat akan lebih menjaga kesehatannya dengan cara stay at home atau tetap di rumah. Tentunya masyarakat juga harus keluar untuk membeli beberapa keperluan seperti kebutuhan sandang, pangan, dan papan.
+Di masa pandemi seperti saat ini tentunya masyarakat akan lebih menjaga kesehatannya dengan cara stay at home atau tetap di rumah. Tentunya masyarakat juga harus keluar untuk membeli beberapa keperluan seperti kebutuhan sandang, pangan, dan papan. <br>
 Maka dari itu untuk mempermudah masyarakat untuk membeli keperluan kami membuat sebuah program pengelolaan toko yang dimana  untuk memudahkan masyarakat untuk membeli kebutuhannya dan membantu mengurangi penyebaran virus COVID-19 yang sedang terjadi saat ini.
 
 
