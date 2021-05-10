@@ -1,0 +1,9 @@
+UPDATE LOG
+Log 0.1
+
+> Menambah file "main.cpp", "functions.cpp", "funtions.hpp", "class.cpp"
+> Menambah menu login/register
+> Menambah menu login
+> Menambah menu register
+> Menambah sistem login
+> Menambah sistem register
