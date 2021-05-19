@@ -368,14 +368,18 @@ class Pelanggan
     void get_data(std::string name)
     {
         char key;
+        std::string nameKey;
         std::string pwKey;
         std::ifstream database;
         database.open("Login.txt");
             while(!database.eof())
             {
-                database >> key >> username >> pwKey;
-                if(username == name)
-                { password = pwKey; }
+                database >> key >> nameKey >> pwKey;
+                if(nameKey == name)
+                {
+                    username = nameKey;
+                    password = pwKey;
+                }
             }
         database.close();
     }
@@ -430,7 +434,7 @@ class Pelanggan
         pKeranjang curr = headKeranjang;
         while(curr != nullptr)
         {
-            gotoxy(x, y); printf("%s\t\t\t%d\t\t%d/%d/%d", curr->namaBarang, curr->jumlahBarang, curr->tgl, curr->bln, curr->thn);
+            gotoxy(x, y); std::cout << curr->namaBarang << "\t\t" << curr->jumlahBarang << "\t\t" << curr->tgl << "/" << curr->bln << "/" << curr->thn << "\n";
             y++;
             curr = curr->next;
         }

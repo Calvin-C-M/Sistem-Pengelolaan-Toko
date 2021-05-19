@@ -1,4 +1,8 @@
 UPDATE LOG
+Log 0.4
+> Perbaikan class pelanggan
+> Perbaikan algoritma pemesanan
+
 Log 0.3
 > Perbaikan beberapa fungsi
 > Tambah fungsi destroy queue;

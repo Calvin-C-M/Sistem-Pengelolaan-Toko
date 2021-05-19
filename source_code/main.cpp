@@ -489,10 +489,10 @@ void menu_pesan_barang()
 
     int pil;
     gotoxy(initialX, initialY); std::cout << "1. Tambah Barang";
-    gotoxy(initialX, initialY); std::cout << "2. Lihat keranjang";
-    gotoxy(initialX, initialY); std::cout << "3. Batal pesanan";
-    gotoxy(initialX, initialY); std::cout << "4. Checkout";
-    gotoxy(initialX, initialY); std::cout << "Plihan: "; std::cin >> pil;
+    gotoxy(initialX, initialY+1); std::cout << "2. Lihat keranjang";
+    gotoxy(initialX, initialY+2); std::cout << "3. Batal pesanan";
+    gotoxy(initialX, initialY+3); std::cout << "4. Checkout";
+    gotoxy(initialX, initialY+4); std::cout << "Plihan: "; std::cin >> pil;
 
     switch(pil)
     {
