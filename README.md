@@ -26,7 +26,6 @@ Aplikasi ini dibangun menggunakan bahasa C/C++ dan dijalankan pada Command Line.
 ### Untuk Pengurus Toko
 * Menambah (termasuk undo), menghapus barang inventori (Menggunakan Stack)
 * Menerima dan Mengatur status pesanan pelanggan (Queue)
-* Membaca data pendapatan toko
 
 
 ## Gambar Rancangan Antar Muka

@@ -1,9 +1,12 @@
 UPDATE LOG
-Log 0.1
+Log 0.2
 
-> Menambah file "main.cpp", "functions.cpp", "funtions.hpp", "class.cpp"
-> Menambah menu login/register
-> Menambah menu login
-> Menambah menu register
-> Menambah sistem login
-> Menambah sistem register
+> Tambah file menu admin dan file menu pelanggan
+> Tambah variabel titik awal X dan Y untuk memudahkan penempatan UI
+> Tambah data struktur stack untuk kelola inventori toko
+> Tambah menu kelola inventori toko (add, undo, read)
+> Tambah menu kelola pelanggan
+> Tambah menu pesan barang
+> Tambah menu lihat riwayat pesanan
+> Tambah fungsi melihat inventori untuk pelanggan
+> MAJOR UPDATE FILE HEADER
