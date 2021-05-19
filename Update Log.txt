@@ -1,6 +1,9 @@
 UPDATE LOG
-Log 0.2
+Log 0.3
+> Perbaikan beberapa fungsi
+> Tambah fungsi destroy queue;
 
+Log 0.2
 > Tambah file menu admin dan file menu pelanggan
 > Tambah variabel titik awal X dan Y untuk memudahkan penempatan UI
 > Tambah data struktur stack untuk kelola inventori toko

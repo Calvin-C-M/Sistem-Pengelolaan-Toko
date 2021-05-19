@@ -167,9 +167,8 @@ void main_menu_admin()
     int pil;
     gotoxy(initialX, initialY); std::cout << "1. Kelola Inventori";
     gotoxy(initialX, initialY+1); std::cout << "2. Kelola Pelanggan";
-    gotoxy(initialX, initialY+2); std::cout << "3. Buku kas"; // Masih dalam perancangan
-    gotoxy(initialX, initialY+3); std::cout << "4. Logout";
-    gotoxy(initialX, initialY+4); std::cout << "Pilihan: "; std::cin >> pil;
+    gotoxy(initialX, initialY+2); std::cout << "3. Logout";
+    gotoxy(initialX, initialY+3); std::cout << "Pilihan: "; std::cin >> pil;
 
     switch(pil)
     {
@@ -178,12 +177,10 @@ void main_menu_admin()
             break;
 
         case 2:
+            menu_kelola_pelanggan();
             break;
 
         case 3:
-            break;
-
-        case 4:
             main_menu();
             break;
 
@@ -403,6 +400,7 @@ void menu_kelola_pelanggan()
             break;
 
         case 4:
+            admin.destroy_queue();
             main_menu_admin();
             break;
 

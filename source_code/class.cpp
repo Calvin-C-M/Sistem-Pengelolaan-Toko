@@ -325,6 +325,20 @@ class Admin
             }
         database.close();
     }
+
+    void destroy_queue()
+    {
+        if(qPesanan.head != nullptr)
+        {
+            pPesanan curr = qPesanan.head, temp = nullptr;
+            while(curr != qPesanan.tail)
+            {
+                temp = curr->next;
+                delete curr;
+                curr = temp;
+            }
+        }
+    }
 };
 
 struct nodeKeranjang
