@@ -204,11 +204,7 @@ class Admin
         {
             pPesanan curr = qPesanan.head;
             pPesanan pRev = nullptr;
-            while(
-                (pNew->tgl >= curr->tgl) &&
-                (pNew->bln >= curr->bln) &&
-                (pNew->thn >= curr->thn)
-            )
+            while(pNew->tgl >= curr->tgl)
             {
                 if(curr->next == nullptr)
                 { break; }
@@ -218,11 +214,7 @@ class Admin
 
             if(
                 curr == qPesanan.head &&
-                (
-                    (pNew->tgl < curr->tgl) &&
-                    (pNew->bln < curr->bln) &&
-                    (pNew->thn < curr->thn)
-                )
+                pNew->tgl < curr->tgl
             )
             {
                 pNew->next = curr;
@@ -231,11 +223,7 @@ class Admin
 
             else if(
                 curr == qPesanan.tail &&
-                (
-                    (pNew->tgl > curr->tgl) &&
-                    (pNew->bln > curr->bln) &&
-                    (pNew->thn > curr->thn)
-                )
+                pNew->tgl > curr->tgl
             )
             {
                 curr->next = pNew;

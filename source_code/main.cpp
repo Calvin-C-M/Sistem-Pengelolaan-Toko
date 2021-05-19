@@ -51,11 +51,13 @@ void menu_login()
     {
         if(status == 'P')
         {
+            pelanggan.get_data(username);
             main_menu_pelanggan();
         }
 
         else
         {
+            admin.get_data(username);
             main_menu_admin();
         }
     }
@@ -371,6 +373,7 @@ void menu_kelola_pelanggan()
     system("cls");
     int lastY;
 
+    admin.create_queue();
     admin.query_pesanan();
 
     gotoxy(initialX, initialY); printf("Nama Pelanggan\t\tNama Barang\t\tJumlah\t\tTgl\t\tStatus");
@@ -525,7 +528,7 @@ void tambah_keranjang()
     system("cls");
 
     int lastY;
-    gotoxy(initialX, initialY); printf("Nama Barang\t\tJumlah\t\tHarga Barang");
+    gotoxy(initialX, initialY); printf("Nama Barang\t\tHarga Barang");
     print_list(initialX, initialY+1, lastY);
 
     std::string nama;

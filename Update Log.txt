@@ -1,4 +1,8 @@
 UPDATE LOG
+Log 0.5
+> Update class admin
+> Perbaikan beberapa fungsi
+
 Log 0.4
 > Perbaikan class pelanggan
 > Perbaikan algoritma pemesanan
